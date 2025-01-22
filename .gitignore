@@ -11,6 +11,7 @@
 
 # Ignore Visual Studio Code files
 .vscode/
+!.vscode/launch.json
 
 # Ignore OS-specific files
 .DS_Store
