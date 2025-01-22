@@ -1,24 +1,21 @@
-# Compiled Object files
-*.o
-*.obj
+# Ignore build output directories
+**/bin/
+**/obj/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore Rider/JetBrains IDE files
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Static libraries
-*.a
-*.lib
+# Ignore Visual Studio Code files
+.vscode/
 
-# Executables
-*.exe
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
 
-# DUB
-.dub
-docs.json
-__dummy.html
-docs/
+# Ignore build artifacts and lock files
+*.log
 
-# Code coverage
-*.lst
