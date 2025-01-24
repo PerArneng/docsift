@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: DocSift",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/DocSift.Cli/bin/Debug/net9.0/DocSift.Library.dll",
+            "args": [
+                "rename",
+                "--query",
+                "test",
+                "--path",
+                "C:\\Users\\james\\Desktop\\test"
+            ]
+        },
+        {
+            "name": "C#: DocSift Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/DocSift.Cli/bin/Debug/net9.0/DocSift.Library.dll",
+            "args": [
+                "rename",
+                "--query",
+                "test",
+                "--path",
+                "C:\\Users\\james\\Desktop\\test"
+            ]
+        }
+    ]
+}
